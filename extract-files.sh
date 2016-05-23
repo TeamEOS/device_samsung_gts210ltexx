@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VENDOR=samsung
-DEVICE=treltexx
+DEVICE=gts210ltexx
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*

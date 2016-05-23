@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter treltexx, $(TARGET_DEVICE)),)
+ifneq ($(filter gts210ltexx, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE		:= init.modem.rc
