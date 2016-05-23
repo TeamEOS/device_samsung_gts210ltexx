@@ -1,7 +1,2 @@
 ### Bluetooth
-vendor/firmware/bcm4358A0_V0033.0000.hcd
-vendor/firmware/BCM4358A1_V0054.0094_wisol.hcd
-vendor/firmware/BCM4358A1_V0054.0094.hcd
-
-### NFC
-etc/sec_s3fwrn5_rfreg_thl.bin
+vendor/firmware/bcm4358A3_V0062.0104.hcd
