@@ -6,10 +6,8 @@ $(call inherit-product, device/samsung/gts2-common/device-common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
-# Inherit nfc enhanced configuration
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/cm/config/telephony.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_gts210ltexx
