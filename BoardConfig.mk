@@ -8,7 +8,7 @@ TARGET_KERNEL_CONFIG := cm_exynos5433-gts210lte_defconfig
 BOARD_MODEM_TYPE := ss333
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := gts210lte, gts210ltexx
+TARGET_OTA_ASSERT_DEVICE := gts210lte,gts210ltexx
 
 # Inherit common board flags
 include device/samsung/gts2-common/BoardConfigCommon.mk
