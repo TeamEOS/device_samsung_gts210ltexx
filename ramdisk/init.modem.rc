@@ -3,7 +3,7 @@ service modemloader /system/bin/modemloader
     class core
     oneshot
 
-service cpboot-daemon /sbin/cbd -d -tstem7400 -bh -mh -p 13
+service cpboot-daemon /sbin/cbd -d -t ss333 -b s -m l -p 13
     class main
     user root
     group radio cache inet misc audio sdcard_rw log sdcard_r shell
@@ -16,3 +16,9 @@ on property:ro.cbd.disable=1
 on property:ro.cbd.restart=1
     restart cpboot-daemon
     restart ril-daemon
+
+on property:ro.debug_level=0x494d
+    write /d/tracing/buffer_size_kb 1408
+    write /d/tracing/events/modem_if/mif_log/enable 1
+    write /d/tracing/tracing_on 1
+    write /sys/module/modem_utils/parameters/dflags 13

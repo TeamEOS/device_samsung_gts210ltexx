@@ -5,7 +5,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --d
 TARGET_KERNEL_CONFIG := cm_exynos5433-gts210lte_defconfig
 
 # RIL
-BOARD_MODEM_TYPE := m7450
+BOARD_MODEM_TYPE := ss333
 
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := gts210lte, gts210ltexx
