@@ -1,3 +1,5 @@
+LOCAL_PATH := device/samsung/gts210ltexx
+
 # Extracted with libbootimg
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/gts210ltexx/dtb.img
 
@@ -11,7 +13,6 @@ BOARD_MODEM_NEEDS_VIDEO_CALL_FIELD := true
 
 # RIL.java overwrite
 BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
-
 
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := gts210lte,gts210ltexx
