@@ -5,5 +5,4 @@ vendor/firmware/bcm4358A3_V0062.0104.hcd
 lib/libwrappergps.so
 
 ### RIL
-lib/libsecnativefeature.so
 lib/libsec-ril.so
